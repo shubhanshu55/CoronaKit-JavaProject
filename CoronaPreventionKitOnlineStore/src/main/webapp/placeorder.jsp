@@ -9,7 +9,7 @@
 <body>
 <jsp:include page="header.html"></jsp:include>
 
-<form action="admin?action=s" method="post"> 
+<form action="admin?action=saveorder" method="post"> 
 <div>
 <label for="Street Address 1">Street Address 1:</label>
   <input type="text" id="pname" name="pname" required>

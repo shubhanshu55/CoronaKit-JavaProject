@@ -35,8 +35,7 @@
 <td><%=objadminmodel2.getPname() %></td>
 <td><%=objadminmodel2.getPcost() %></td>
 <td><%=objadminmodel2.getPdesc() %></td>
-<td><a href="admin?action=edit&id=<%=objadminmodel2.getId()%>"><button>Edit</button></a></td>
-<td><a href="admin?action=delete&id=<%=objadminmodel2.getId()%>"><button>Delete</button></a></td>
+
 
 </tr>
 <% }%>
